@@ -1,0 +1,45 @@
+body{
+    background-color:lightslategray;
+    margin:auto;
+    height:100%;
+}
+body .form{
+    margin:auto;
+    display:flex;
+    align-content:center;
+    justify-content:center; 
+} 
+body .form form .body{
+    margin-top:10%;
+    background-color:white;
+    width:100vh;
+    height:75vh;
+    border:1px dashed black;
+    border-radius:20px
+}
+body .form form .body .add{
+    margin:55px 5% 25px 50px;
+} 
+body .form form .body .add .input{
+    margin:0 0 0 20%;
+    align-items:center;
+} 
+body .form form .body .add .input input{
+    margin-bottom:25px;
+    /* margin-left:14vh; */
+    width:50vh;
+    height:5vh;
+}
+body .form form .body .add .input textarea{
+    width:50vh;
+    height:40vh;
+    margin-left:-100px
+    
+}
+body .form form .body .but input{
+    background-color:blue;
+    color:white;
+    margin-left:90%;
+    /* position:relative; */
+    /* left:0; */
+} 

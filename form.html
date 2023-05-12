@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="username">username</label>
+        <input type="text" placeholder="username" name="username" id="username" maxlength="5" required><br>
+        <label for="html">choose</label>
+        <input type="radio" id="html" name="choose" value="html"><label for="html">html</label>
+        <input type="radio" id="css" name="choose" value="css"><label for="css">css</label>
+        <input type="radio" id="python" name="choose" value="python"><label for="python">python</label><br>
+        <label for="html">choose</label>
+        <input type="checkbox" id="html" name="choose" value="html"><label for="html">html</label>
+        <input type="checkbox" id="css" name="choose" value="css"><label for="css">css</label>
+        <input type="checkbox" id="python" name="choose" value="python"><label for="python">python</label><br>
+        <label for="selects">select</label>
+        <select id="selects" name="selects" size="3" multiple>
+            <option value="1">value 1</option>
+            <option value="2">value 2</option>
+            <option value="3">value 3</option>
+        </select>
+        <textarea name="msg" rows="3" cols="50">type here :</textarea>
+        <label for="browse">browse</label>
+        <input list="browse" name="browse">
+        <datalist id="browse">
+            <option value="apple">apple</option>
+            <option value="mango">mango</option>
+            <option value="kiwi">kiwi</option>
+        </datalist> 
+        <input type="submit" value="login"> 
+        <button type="submit" name="butn">just button</button>
+    </form>
+</body>
+</html>

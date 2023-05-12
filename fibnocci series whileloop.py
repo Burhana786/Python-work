@@ -1,0 +1,10 @@
+sum=0
+num1=0
+num2=1
+range=int(input("enter the range :"))
+print("the fibnocci series is :",num1,num2,end=" ")
+while sum<=range:
+    sum=num1+num2
+    num1=num2
+    num2=sum
+    print(sum,end=" ")

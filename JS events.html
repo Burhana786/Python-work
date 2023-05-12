@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS Events</title>
+</head>
+<body>
+<!-- 1  : MOUSE EVENT -->
+
+    <!-- 1.1 : on click event ()-->
+    <!-- <input type="button"  value="click here" onclick="alert('demo of button clicked')" > -->
+
+
+
+    <!-- with function -->
+    <!-- <p id="p1"></p>
+    <input type="button" value="on click" onclick="add()">
+    <script>
+        function add()
+        {
+            document.getElementById("p1").innerHTML="demo of on click with function ,you clicked a button"
+        }
+    </script> -->
+
+    <!-- 1.2 : on context menu event() -->
+
+    <!-- <p id="p1"></p>
+    <input type="button" value="click button" oncontextmenu="add()">
+    <script>
+        function add()
+        {
+            document.getElementById("p1").innerHTML="demo of context menu event"
+        }
+    </script> -->
+
+
+    <!-- 1.3 : on mouse over event() -->
+
+    <!-- <p id="p1"></p>
+    <input type="button" value="clicking" onmouseover="add()">
+    <script>
+        function add()
+        {
+            document.getElementById("p1").innerHTML="demo of on mouse over"
+        }
+    </script> -->
+
+
+    <!-- 1.4 : on muse out event() -->
+    <!-- <p id="p1"></p>
+    <input type="button" value=" clicks" onmouseout="add()">
+    <script>
+        function add()
+        {
+            document.getElementById("p1").innerHTML="demo of on mouse out"
+        }
+    </script> -->
+
+
+
+
+    <!-- 1.5: on resize event ()-->
+    
+    <!-- <p>Window resized <span id="demo">0</span>times.</p>
+    <script>
+        document.getElementsByTagName("BODY")[0].onresize=function() {myFunction()};
+        var x=0;
+        function myFunction(){
+            var txt=x+=1;
+            document.getElementById("demo").innerHTML=txt;
+        }
+    </script> -->
+
+
+    <!-- 1  : KEYBOARD EVENT -->
+    <!-- <script>
+        var loaded=false;
+        function doit()
+        {
+            alert('Everything is "loaded" and loaded = ' +loaded);
+        }
+    </script>
+    <body onLoad="window.loaded = true;">
+        <form>
+            <input type="button" value="press me" onClick="if (window.loaded==true) doit();>
+        </form>
+    </body>
+
+ -->
+
+
+<!-- 1  : KEYBOARD EVENT -->
+
+    <!-- 1.1  : KEYUP EVENT()  :-->
+
+    <!-- <input type="text" onkeyup="alert('keyup event')" placeholder="enter"> -->
+
+   
+    <!-- 1.2  : KEY down EVENT()-->
+
+    <!-- <input type="text" onkeydown="alert('keydown event')" placeholder="enter"> -->
+
+    <!-- 1.3  : KEY press EVENT()-->
+
+    <!-- <input type="text" onkeypress="alert('keypress event')" placeholder="enter"> -->
+
+
+<!-- 1  : FORM EVENT -->
+    <!-- 1.1  : on focus EVENT()  : this--input-->
+
+    <!-- <input type="text" onfocus="formevent(this)" place holder="enter">
+    <script>
+        function formevent(elm)
+        {
+            elm.style.background="pink";
+        }
+    </script> -->
+
+
+    <!-- veroru example-->
+
+    <!-- <input type="text" onfocus="formevent(this)" place holder="enter">
+    <script>
+        function formevent(elm)
+        {
+            elm.style.background="pink";
+        }
+    </script> -->
+
+
+
+
+    <!-- 1.2  : on blur EVENT() -->
+
+    <!-- <p id="para1">HELLO</p>
+    <input type="text" onblur="alert('blur event')" placeholder="enter">
+    <script>
+        document.getElementById("para1").style.display="none"
+        function formevent(elm)
+        {
+            elm.style.background="pink";
+        }
+    </script>  -->
+
+
+    <!-- 1.3  : on change EVENT() -->
+
+    <!-- <p id="para">Hello</p>
+    <input type="text" onblur="alert('blur event')" placeholder="enter"> -->
+    <select onchange="alert('changed')">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    //<script>
+        // document.getElementById("para").style.display="none"
+        // function formevent(elm)
+        // {
+        //     elm.style.backgroud="red"
+        // }
+    //</script>
+    
+
+
+
+ <!-- 1.4  : on submit  EVENT() -->
+
+    
+    <!-- <form onsubmit="alert('an example for submit event')">
+    <input type="submit" value="submit">
+    </form> -->
+    
+    
+
+
+</body>
+</html>

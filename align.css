@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+    background-color:lightpink
+}
+
+#colr{
+    /* text-align:center; */
+    text-align-last:right;
+    /* text-decoration:line-through; */
+    text-decoration-thickness:5px;
+    text-transform:capitalize;
+    text-shadow:2px 2px 5px red
+}
+#space{
+    word-spacing :20px;
+    letter-spacing: 5px;
+    white-space:normal,pre;
+    line-height:4em;
+    text-indent:50px;
+    font-family: 'Bungee Spice', cursive;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js functionings</title>
+</head>
+<body>
+    <!-- 1 : set time -->
+     <!-- <button onclick='setTimeout(myfun(),3000)'>onclick</button>
+    <script>
+        function myfun()
+        {
+            alert("hello")
+        }
+    </script> -->
+
+
+    <!-- 2 : set time out -->
+    
+    <!-- <button onclick="clearTimeout(myvar)">stop</button>
+    <script>
+        function myfun()
+        {
+            alert("hello")
+        }
+    </script> -->
+
+
+    <!-- 3 : timer & stop timer -->
+
+    <p id="demo"></p>
+    <button onClick="stoptimmer()">Stop Time</button>
+    <script>
+        const myInterval=setInterval(mytimmer,1000);
+        function mytimmer()
+        {
+            const date=new Date();
+            document.getElementById("demo").innerHTML=date.toLocalTimeString();
+        }
+        function stoptimmer()
+        {
+            clearInterval(myInterval);
+        }
+    </script>
+
+
+</body>
+</html>

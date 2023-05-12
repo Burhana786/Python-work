@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+</head>
+<body>
+    <script src="" type="text/javascript"></script>
+    <script>
+        // while loop
+        i=0
+        while(i<5)
+        {
+            document.write(i,"<br>")
+            ++i
+
+        }
+
+        //for loop
+        for(i=0;i<5;i++)
+        {
+            if(i==3)
+            {
+                continue
+            }
+            document.write(i,"<br>")
+        }
+
+        // object
+        obj={name:"Buru" , age:20}
+        for(i in obj)
+        {
+            document.write(i,"=",obj[i],"<br>")
+            // document.write(i,"<br>")
+        }
+
+        // array
+        obj1=[11,22,33,44,55]
+        for(i of obj1)
+        {
+            document.write(i,"<br>")
+        }
+
+        // if
+        num=window.prompt("enter the number :")
+        document.write( "entered number is :",num,"<br>")
+        if(num==1)
+        {
+            document.write("one")
+        }
+        else if(num==2)
+        {
+            document.write("two")
+        }
+        else
+        {
+            document.write("none")
+        }
+
+    </script>
+    
+</body>
+</html>

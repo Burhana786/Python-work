@@ -1,0 +1,10 @@
+print(10>9)
+print(10==9)
+print(10<9)
+print(bool(False))
+print(bool("abc"))
+print(bool(123))
+print(bool(None))
+print(bool(0))
+num=200
+print(isinstance(num,int))
